@@ -51,9 +51,9 @@
       <section class="section container articles js-articles">
         <div class="articles-head"> 
           <div class="articles__preview"><img class="articles__preview-img js-articlesImg" src="./img/articles/head.webp" alt="Блог">
-            <div class="articles__preview-line"></div>
+            <div class="articles__preview-line js-articlesLine"></div>
           </div>
-          <div class="articles__description">
+          <div class="articles__description js-articlesDescription">
             <h1 class="articles__title">Добро пожаловать в блог SafuBank</h1>
             <p class="articles__text">Здесь мы обсуждаем процессинг криптоплатежей, делимся успешными кейсами наших клиентов и рассказываем о рынке криптовалют. </p>
             <div class="articles__slider swiper-container js-articlesSlider">
@@ -87,7 +87,7 @@
             </div>
           </div>
         </div>
-        <div class="articles-list"> 
+        <div class="articles-list js-articlesList">
           <div class="articles__controls">
             <div class="articles__search"> 
               <input class="articles__input" type="text" placeholder="Поиск по блогу ...">
@@ -174,7 +174,9 @@
                         </div>
                       </div></a>
             <div class="articles__banner">
-              <p>Под баннер</p>
+              <h3 class="articles__banner-title">Самое время <span>выпустить карту</span>!</h3>
+              <p class="articles__banner-text">Здесь будет продающий промо-текст, который расскажет о карте, преимуществах и бонусах, для примера</p>
+              <div class="articles__banner-link"> <a href="#" target="_blank">Выпустить карту</a><i>Откроется приложение Telegram MiniApp</i></div>
             </div><a class="articles-item swiper-slide articles__item" href="article.html">
                       <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
                       <div class="articles-item__description"> 
@@ -248,6 +250,9 @@
                           <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
                         </div>
                       </div></a>
+            <div class="articles__more"> 
+              <button class="articles__btn" type="button">Показать еще </button>
+            </div>
           </div>
         </div>
       </section>
