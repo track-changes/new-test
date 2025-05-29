@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Главная</title>
+    <base href="/">
+    <meta name="theme-color" content="#F5F5F5">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  </head>
+  <link rel="stylesheet" href="./styles/main.min.css">
+  <body class="index">
+    <header class="header js-header">
+      <div class="header__inner"> 
+        <div class="header__logo"> <a href="/"><img src="./img/logo.svg" alt="Safubank"></a></div>
+        <nav class="header__menu js-headerMenu">
+          <div class="header__nav"> 
+            <ul class="header__list"> 
+              <li class="header__link header__link--active">  <a href="/" data-replace="Главная"> <span>Главная </span></a></li>
+              <li class="header__link"><a href="about.html" data-replace="О нас"> <span>О нас </span></a></li>
+              <li class="header__link"><a href="contacts.html" data-replace="Контакты"> <span>Контакты</span></a></li>
+              <li class="header__link"><a href="articles.html" data-replace="Блог"> <span>Блог</span></a></li>
+              <li class="header__list-btn"><a href="#"> <span>Открыть карту</span></a></li>
+            </ul>
+          </div>
+              <div class="header__actions">
+                <div class="header__language js-language">
+                  <button class="header__language-btn js-languageBtn" type="button">RU</button>
+                  <ul class="header__language-list js-languageList">
+                    <li class="header__language-item"> <a href="#">EN</a></li>
+                  </ul>
+                </div><a class="link-btn" href="#">Join App</a>
+              </div>
+        </nav>
+            <div class="header__actions header__actions--tablet">
+              <div class="header__language js-language">
+                <button class="header__language-btn js-languageBtn" type="button">RU</button>
+                <ul class="header__language-list js-languageList">
+                  <li class="header__language-item"> <a href="#">EN</a></li>
+                </ul>
+              </div><a class="link-btn" href="#">Join App</a>
+            </div>
+        <button class="header__burger js-headerBurger" type="button" aria-label="Menu"></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section container banner js-banner">
+        <div class="banner__inner">
+          <div class="banner__description">
+            <div class="banner__labels js-bannerLebels">
+              <div class="banner__label">Без документов</div>
+              <div class="banner__label">Поддержка 50+ криптовалют</div>
+            </div>
+            <h2 class="banner__title js-bannerTitle">Плати криптой, как фиатом</h2>
+            <p class="banner__text js-bannerText">Мгновенный выпуск международной карты с пополнением в криптовалюте, чтобы твои коины работали в реальном мире.</p><a class="link-tg banner__link js-bannerLink" href="#" target="_blank">Join App</a>
+          </div>
+          <div class="banner__imgs">
+            <div class="banner__cards js-bannerCards"></div>
+            <div class="banner__logo js-bannerLogo"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section container features">
+        <ul class="features__list"> 
+          <li class="features__item"> 
+            <h3 class="features__title">Apple Pay /<br>Google Pay</h3>
+            <p class="features__text">Привязка к кошельку телефона — платите в одно касание.</p>
+            <div class="features__icons"> 
+              <div class="features__apple"> </div>
+              <div class="features__google"></div>
+            </div>
+          </li>
+          <li class="features__item features__item--accent">
+            <h3 class="features__title">Пополняется криптой напрямую</h3>
+            <p class="features__text">BTC, ETH, USDT, TON и десятки других. Пополняй без мостов, без свапов.</p>
+          </li>
+          <li class="features__item"> 
+            <h3 class="features__title">Подключайте любые сервисы</h3>
+            <p class="features__text">Оплачивайте подписки на любимые сервисы и рабочие инструменты.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section container start js-start">
+        <div class="start__inner"> 
+          <div class="start__description js-startDescription">
+                  <h5 class="section-suptitle">Начните работу уже сейчас</h5>
+                  <h3 class="section-title">Быстрый старт</h3>
+            <p class="start__text">Выпуск виртуальной Visa/Mastercard за 30 секунд, сразу в телефоне</p><a class="link-btn link-btn--dot link-btn--accent01 start__link" href="#">Открыть карту</a>
+          </div>
+          <div class="start__imgs"> 
+            <div class="start__img-left js-startImgLeft"><img src="./img/start/left.webp" alt=""></div>
+            <div class="start__img-center js-startImgCenter"> <img src="./img/start/center.webp" alt=""></div>
+            <div class="start__img-right js-startImgRight"><img src="./img/start/right.webp" alt=""></div>
+            <div class="start__img-ellipse js-startEllipse"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section container steps">
+        <div class="steps__inner"> 
+          <div class="steps__description">
+                  <h5 class="section-suptitle">Как это работает</h5>
+                  <h3 class="section-title steps__title">Открыть карту проще, чем кажется</h3>
+            <ol class="steps__list">
+              <li class="steps__item"> 
+                <div class="steps__label">Шаг 1</div>
+                <div class="steps__item-title">Откройте приложение Safubank в Telegram</div>
+                <div class="steps__item-text">Safubank работает через Telegram Mini-app, поэтому скачивать ничего не нужно.</div><a class="link-tg link-tg--small steps__item-link" href="#" target="_blank">Join App</a>
+              </li>
+              <li class="steps__item"> 
+                <div class="steps__label">Шаг 2</div>
+                <div class="steps__item-title">Пополните баланс и начните оформление карты</div>
+                <div class="steps__item-text">Пополните баланс кошелька Safubank удобной криптовалютой из списка и нажмите кнопку “Выпустить карту”.</div>
+              </li>
+              <li class="steps__item"> 
+                <div class="steps__label">Шаг 3</div>
+                <div class="steps__item-title">Выберите карту и оплатите ее</div>
+                <div class="steps__item-text">Выберите из списка нужную карту, заполните информацию о себе и оплатите карту. </div>
+              </li>
+            </ol>
+          </div>
+          <div class="steps__img"></div>
+        </div>
+      </section>
+      <section class="section container blog js-blog">
+        <div class="blog__inner"> 
+          <div class="blog__description js-blogDescription">
+                  <h5 class="section-suptitle">Блог</h5>
+                  <h3 class="section-title">Публикации и статьи</h3>
+            <div class="blog__text">Обсуждаем новости, делимся полезной информацией</div><a class="blog__link" href="articles.html">Читать все </a>
+            <div class="blog__arrows">
+              <button class="blog__arrow blog__arrow--prev js-blogPrev" type="button"></button>
+              <button class="blog__arrow blog__arrow--next js-blogNext" type="button"></button>
+            </div>
+          </div>
+          <div class="blog__slider swiper-container js-blogSlider">
+            <div class="swiper-wrapper"><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide blog__slider-item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section container faq">
+        <div class="faq__inner"> 
+          <div class="faq__description">
+            <h3 class="faq__title">FAQ</h3>
+            <p class="faq__text">Не нашли ответа на свой вопрос? Свяжитесь с нами!</p><a class="link-tg faq__link link-tg--transparent" href="#" target="_blank">Поддержка</a>
+          </div>
+          <ol class="faq__list-wrapper">
+            <li class="faq__item js-faqItem">
+              <div class="faq__question js-faqQuestion">
+                <button class="faq__toggle" type="button" aria-label="Show answer"></button><span class="faq__question-text">Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос </span>
+              </div>
+              <div class="faq__accordion">
+                <div class="faq__accordion-animation">
+                  <div class="faq__accordion-wrapper">
+                    <div class="faq__accordion-content">
+                      <div class="faq__answer">Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="faq__item js-faqItem">
+              <div class="faq__question js-faqQuestion">
+                <button class="faq__toggle" type="button" aria-label="Show answer"></button><span class="faq__question-text">Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос </span>
+              </div>
+              <div class="faq__accordion">
+                <div class="faq__accordion-animation">
+                  <div class="faq__accordion-wrapper">
+                    <div class="faq__accordion-content">
+                      <div class="faq__answer">Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="faq__item js-faqItem">
+              <div class="faq__question js-faqQuestion">
+                <button class="faq__toggle" type="button" aria-label="Show answer"></button><span class="faq__question-text">Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос </span>
+              </div>
+              <div class="faq__accordion">
+                <div class="faq__accordion-animation">
+                  <div class="faq__accordion-wrapper">
+                    <div class="faq__accordion-content">
+                      <div class="faq__answer">Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="faq__item js-faqItem">
+              <div class="faq__question js-faqQuestion">
+                <button class="faq__toggle" type="button" aria-label="Show answer"></button><span class="faq__question-text">Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос </span>
+              </div>
+              <div class="faq__accordion">
+                <div class="faq__accordion-animation">
+                  <div class="faq__accordion-wrapper">
+                    <div class="faq__accordion-content">
+                      <div class="faq__answer">Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="faq__item js-faqItem">
+              <div class="faq__question js-faqQuestion">
+                <button class="faq__toggle" type="button" aria-label="Show answer"></button><span class="faq__question-text">Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос Вопрос </span>
+              </div>
+              <div class="faq__accordion">
+                <div class="faq__accordion-animation">
+                  <div class="faq__accordion-wrapper">
+                    <div class="faq__accordion-content">
+                      <div class="faq__answer">Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ Ответ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+            <div class="tickers"> 
+              <div class="tickers__inner js-tickers"> <span class="tickers__item">VISA</span><span class="tickers__item">Mastercard</span><span class="tickers__item">Google Pay</span><span class="tickers__item">Apple Pay</span><span class="tickers__item">VISA</span><span class="tickers__item">Mastercard</span><span class="tickers__item">Google Pay</span><span class="tickers__item">Apple Pay</span>
+              </div>
+            </div>
+    </main>
+    <footer class="footer container">
+      <div class="footer__inner">
+        <ul class="footer__list"> 
+          <li class="footer__list-btn"><a class="link-btn link-btn--dot link-btn--inline footer__btn" href="#">Join App</a>
+          </li>
+          <li class="footer__link"> <a href="/" data-replace="Главная"> <span>Главная </span></a></li>
+          <li class="footer__link"><a href="about.html" data-replace="О нас"> <span>О нас </span></a></li>
+          <li class="footer__link"><a href="articles.html" data-replace="Блог"> <span>Блог</span></a></li>
+          <li class="footer__link"><a href="contacts.html" data-replace="Контакты"> <span>Контакты</span></a></li>
+        </ul>
+        <div class="footer__socials"> <a class="footer__social" href="#" target="blank"></a><a class="footer__social footer__social--x" href="#" target="blank"></a><a class="footer__social footer__social--youtube" href="#" target="blank"></a></div>
+        <div class="footer__info">
+          <p class="footer__copyright">© 2025 SafuBank | Все права защищены</p><a class="footer__doc" href="#" target="_blank">Политика конфиденциальности</a><a class="footer__doc" href="#" target="_blank">Условия и положения</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./js/vendor.min.js"></script>
+  <script type="module" src="./js/main.min.js"></script>
+</html>

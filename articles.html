@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Блог</title>
+    <base href="/">
+    <meta name="theme-color" content="#F5F5F5">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="./icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  </head>
+  <link rel="stylesheet" href="./styles/main.min.css">
+  <body class="articles">
+    <header class="header js-header">
+      <div class="header__inner"> 
+        <div class="header__logo"> <a href="/"><img src="./img/logo.svg" alt="Safubank"></a></div>
+        <nav class="header__menu js-headerMenu">
+          <div class="header__nav"> 
+            <ul class="header__list"> 
+              <li class="header__link header__link--active">  <a href="/" data-replace="Главная"> <span>Главная </span></a></li>
+              <li class="header__link"><a href="about.html" data-replace="О нас"> <span>О нас </span></a></li>
+              <li class="header__link"><a href="contacts.html" data-replace="Контакты"> <span>Контакты</span></a></li>
+              <li class="header__link"><a href="articles.html" data-replace="Блог"> <span>Блог</span></a></li>
+              <li class="header__list-btn"><a href="#"> <span>Открыть карту</span></a></li>
+            </ul>
+          </div>
+              <div class="header__actions">
+                <div class="header__language js-language">
+                  <button class="header__language-btn js-languageBtn" type="button">RU</button>
+                  <ul class="header__language-list js-languageList">
+                    <li class="header__language-item"> <a href="#">EN</a></li>
+                  </ul>
+                </div><a class="link-btn" href="#">Join App</a>
+              </div>
+        </nav>
+            <div class="header__actions header__actions--tablet">
+              <div class="header__language js-language">
+                <button class="header__language-btn js-languageBtn" type="button">RU</button>
+                <ul class="header__language-list js-languageList">
+                  <li class="header__language-item"> <a href="#">EN</a></li>
+                </ul>
+              </div><a class="link-btn" href="#">Join App</a>
+            </div>
+        <button class="header__burger js-headerBurger" type="button" aria-label="Menu"></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section container articles js-articles">
+        <div class="articles-head"> 
+          <div class="articles__preview"><img class="articles__preview-img js-articlesImg" src="./img/articles/head.webp" alt="Блог">
+            <div class="articles__preview-line"></div>
+          </div>
+          <div class="articles__description">
+            <h1 class="articles__title">Добро пожаловать в блог SafuBank</h1>
+            <p class="articles__text">Здесь мы обсуждаем процессинг криптоплатежей, делимся успешными кейсами наших клиентов и рассказываем о рынке криптовалют. </p>
+            <div class="articles__slider swiper-container js-articlesSlider">
+              <div class="swiper-wrapper"><a class="articles-item swiper-slide articles-item--big articles__slider-item" href="article.html">
+                          <div class="articles-item__img"> <img src="./img/articles/article-image4.webp" alt=""></div>
+                          <div class="articles-item__description"> 
+                            <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                            <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                            <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                              <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                            </div>
+                          </div></a><a class="articles-item swiper-slide articles-item--big articles__slider-item" href="article.html">
+                          <div class="articles-item__img"> <img src="./img/articles/article-image4.webp" alt=""></div>
+                          <div class="articles-item__description"> 
+                            <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                            <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                            <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                              <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                            </div>
+                          </div></a><a class="articles-item swiper-slide articles-item--big articles__slider-item" href="article.html">
+                          <div class="articles-item__img"> <img src="./img/articles/article-image4.webp" alt=""></div>
+                          <div class="articles-item__description"> 
+                            <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                            <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                            <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                              <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                            </div>
+                          </div></a>
+              </div>
+              <div class="articles__slider-scrollbar swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="articles-list"> 
+          <div class="articles__controls">
+            <div class="articles__search"> 
+              <input class="articles__input" type="text" placeholder="Поиск по блогу ...">
+            </div>
+            <div class="articles__categories">
+              <div class="articles__categories-title">Категории</div>
+              <button class="articles__category active" type="button">Все статьи</button>
+              <button class="articles__category" type="button">Новости</button>
+              <button class="articles__category" type="button">Обновления</button>
+              <button class="articles__category" type="button">Wiki</button>
+            </div>
+          </div>
+          <div class="articles__items"><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a>
+            <div class="articles__banner">
+              <p>Под баннер</p>
+            </div><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image1.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image2.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a><a class="articles-item swiper-slide articles__item" href="article.html">
+                      <div class="articles-item__img"> <img src="./img/articles/article-image3.webp" alt=""></div>
+                      <div class="articles-item__description"> 
+                        <h5 class="articles-item__title">Trust Wallet набрал 200 млн пользователей: что это значит для сети TRON</h5>
+                        <p class="articles-item__text">Команда Trust Wallet сообщила о крупной вехе — 200 миллионов пользователей по всему миру. Это делает его одним из крупнейших self-custody кошельков в индустрии.</p>
+                        <div class="articles-item__info"><span class="articles-item__label">Новости</span>
+                          <time class="articles-item__date" datetime="2025-05-06">6 мая 2025</time>
+                        </div>
+                      </div></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__inner">
+        <ul class="footer__list"> 
+          <li class="footer__list-btn"><a class="link-btn link-btn--dot link-btn--inline footer__btn" href="#">Join App</a>
+          </li>
+          <li class="footer__link"> <a href="/" data-replace="Главная"> <span>Главная </span></a></li>
+          <li class="footer__link"><a href="about.html" data-replace="О нас"> <span>О нас </span></a></li>
+          <li class="footer__link"><a href="articles.html" data-replace="Блог"> <span>Блог</span></a></li>
+          <li class="footer__link"><a href="contacts.html" data-replace="Контакты"> <span>Контакты</span></a></li>
+        </ul>
+        <div class="footer__socials"> <a class="footer__social" href="#" target="blank"></a><a class="footer__social footer__social--x" href="#" target="blank"></a><a class="footer__social footer__social--youtube" href="#" target="blank"></a></div>
+        <div class="footer__info">
+          <p class="footer__copyright">© 2025 SafuBank | Все права защищены</p><a class="footer__doc" href="#" target="_blank">Политика конфиденциальности</a><a class="footer__doc" href="#" target="_blank">Условия и положения</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./js/vendor.min.js"></script>
+  <script type="module" src="./js/main.min.js"></script>
+</html>
